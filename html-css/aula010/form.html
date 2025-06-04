@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo sobre formularios em html</title>
+  </head>
+  <body>
+    <form action="cadastro.php" method="get" target="_blank">
+      <fieldset>
+        <legend>formulario cadastro</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <br />
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" />
+        <br />
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" />
+        <br />
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+          <option value="rs">Rio Grande do Sul</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <p>Natureza do cargo</p>
+        <label><input type="radio" name="cargo" value="gerencia">Gerência</label>
+        <label><input type="radio" name="cargo" value="financeiro">Financeiro</label>
+        <label><input type="radio" name="cargo" value="recepcao">Recepção</label>
+        <label><input type="radio" name="cargo" value="administrativo">Administrativo</label>
+        <label><input type="radio" name="cargo" value="juridico">Juridico</label>
+        <p>Área de interesse</p>
+        <label><input type="checkbox" name="interesse" value="computacao">Computação</label>
+        <label><input type="checkbox" name="interesse" value="biologia">Biologia</label>
+        <label><input type="checkbox" name="interesse" value="ambiente">Meio ambiente</label>
+        <label><input type="checkbox" name="interesse" value="engenharia">Engenharia</label>
+        <label><input type="checkbox" name="interesse" value="historia">História</label>
+        <p>Mini-curriculo</p>
+        <textarea cols="50" rows="10"></textarea>
+      </fieldset>
+      <input type="submit" value="enviar">
+      <input type="reset" value="limpar">
+    </form>
+  </body>
+</html>
