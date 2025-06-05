@@ -1,0 +1,19 @@
+ body{
+        background-color: rgb(63, 60, 66);
+      }
+      h2{
+        text-align: center;
+        color: aliceblue;
+      }
+      p {
+        color: rgb(17, 47, 218);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .subtitulo {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: black;
+        background-color: rgb(15, 196, 54);
+        border-radius: 10px;
+        padding: 5px;
+      }
