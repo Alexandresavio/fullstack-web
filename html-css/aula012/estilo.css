@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Seletor de elemento:*/
+p{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+
+/*Seleção de descendente*/
+body div section p,
+body div section h1{
+color: rgb(189, 12, 180);
+}
+
+/*Seletor de classe*/
+.heading{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 146, 41);
+}
+
+/*Seletor por ID*/
+#id{
+    color: black;
+    font-size: larger;
+}
